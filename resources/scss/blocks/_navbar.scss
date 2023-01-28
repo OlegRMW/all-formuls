@@ -1,0 +1,55 @@
+.navbar-top {
+  padding: 25px 0;
+}
+
+.navbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navbar-list__item {
+  text-decoration: none;
+  color: $grey;
+  transition: 0.3s;
+
+  &:hover {
+    color: #FFF;
+  }
+}
+
+.login-group {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.sing-in__btn {
+  text-decoration: none;
+  color: $grey;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: #FFF;
+  }
+}
+
+.register__btn {
+  color: #FFF;
+  background: $orange;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background: #f8763c;
+  }
+}

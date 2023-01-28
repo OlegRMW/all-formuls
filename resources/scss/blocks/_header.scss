@@ -1,0 +1,29 @@
+.header {
+
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-text {
+  padding-top: 80px;
+}
+
+.header__title {
+  font-size: 50px;
+  color: #FFF;
+  line-height: 60px;
+  margin-bottom: 1em;
+}
+
+.header__subtitle {
+  color: $grey;
+}
+
+.header-dec {
+  position: absolute;
+  right: 0;
+  top: -120px;
+  z-index: -1;
+}

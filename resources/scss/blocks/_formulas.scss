@@ -1,0 +1,60 @@
+.formulas-title {
+  margin-bottom: 55px;
+}
+
+.formulas-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.formulas-card {
+  background: #FFF;
+  padding: 15px 21px;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+}
+
+.formul-title {
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+
+.formul-img {
+  text-align: left;
+  img {
+    width: 105px;
+    height: 70px;
+  }
+}
+
+.formul-btn {
+  background: #FF6E30;
+  border-radius: 7px;
+  padding: 6px 23px;
+  display: inline-block;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  margin-top: 20px;
+}
+
+.getFavorites {
+  &.heart-icon path {
+    fill: red;
+  }
+  background: none;
+  border: none;
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  cursor: pointer;
+}

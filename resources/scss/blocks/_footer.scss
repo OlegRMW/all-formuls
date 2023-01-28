@@ -1,0 +1,61 @@
+.footer {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+  padding: 45px 0;
+}
+
+.footer-row {
+  display: flex;
+  gap: 200px;
+}
+
+.footer-company {
+
+}
+
+.logo {
+}
+
+.footer-company__copyright {
+  margin: 19px 0 20px 0;
+}
+
+.footer-company__text {
+  font-size: 14px;
+  color: $grey;
+}
+
+
+.footer-contacts {
+  padding-top: 10px;
+}
+
+.footer-contacts__title {
+  margin-bottom: 30px;
+}
+
+.footer-contacts__inf {
+  color: $grey;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.footer-nav {
+}
+
+.footer-nav__title {
+  margin-bottom: 30px;
+}
+
+.footer-nav__list {
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-nav__list__item {
+  color: $grey;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: block;
+}
