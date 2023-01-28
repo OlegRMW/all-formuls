@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController; 
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\FavoritesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,10 +23,11 @@ Route::get('/formuls/favorites',[PageController::class,'favorites'])->name('page
 Route::get('/formuls/registration',[PageController::class,'reg'])->name('page.reg');
 Route::get('/formuls/authorization',[PageController::class,'auth'])->name('page.auth');
 Route::get('/formuls/{id}',[PageController::class,'show'])->name('page.show');
+Route::get("/users/logout",[UserController::class,'logout'])->name('page.logout');
+Route::get("/users/insert",[PageController::class,'insert'])->name('page.insert');
 
 
 Route::post("/users/authorization",[UserController::class,'login'])->name('page.log');
 Route::post('/users/registration',[UserController::class,'regist'])->name('page.regist');
-Route::get("/users/logout",[UserController::class,'logout'])->name('page.logout');
-Route::get("/users/insert",[PageController::class,'insert'])->name('page.insert');
+Route::post('/formuls/favorites-add',[FavoritesController::class,'store'])->name('page.favorites.add');
 
